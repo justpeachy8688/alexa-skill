@@ -1,5 +1,5 @@
-# alexa-skill
-This program is an Alexa Skill that I have created, tested and published here to github. It allows users to interact with Alexa to learn fun facts about Frogger, Tetris & Pacman. The Alexa skill allows users to specify one of these 3 video game titles and receive a random fact related to that game.
+# Alexa Skill
+<p>This program is an Alexa Skill that I have created, tested and published here to github. It allows users to interact with Alexa to learn fun facts about Frogger, Tetris & Pacman. The Alexa skill allows users to specify one of these 3 video game titles and receive a random fact related to that game. </p>
 
 ## Instructions (Option A: Deployment with ASK CLI)
 1. Ensure you have Node.js installed on your machine.

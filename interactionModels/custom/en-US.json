@@ -1,0 +1,65 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "GameTitle",
+              "type": "GAME_TITLES"
+            }
+          ],
+          "name": "GameFactIntent",
+          "samples": [
+            "What is a fun fact about {GameTitle}",
+            "Give me a {GameTitle} fact",
+            "Tell me a fact about {GameTitle}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pacman"
+              }
+            },
+            {
+              "name": {
+                "value": "tetris"
+              }
+            },
+            {
+              "name": {
+                "value": "frogger"
+              }
+            }
+          ],
+          "name": "GAME_TITLES"
+        }
+      ],
+      "invocationName": "winthrop game facts"
+    }
+  }
+}
